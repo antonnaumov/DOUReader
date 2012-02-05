@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16F0EB8F14DF0A69003FBFDB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F0EB8E14DF0A69003FBFDB /* Cocoa.framework */; };
+		16F0EB9914DF0A69003FBFDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16F0EB9714DF0A69003FBFDB /* InfoPlist.strings */; };
+		16F0EB9B14DF0A69003FBFDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F0EB9A14DF0A69003FBFDB /* main.m */; };
+		16F0EB9F14DF0A69003FBFDB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 16F0EB9D14DF0A69003FBFDB /* Credits.rtf */; };
+		16F0EBA214DF0A69003FBFDB /* DRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F0EBA114DF0A69003FBFDB /* DRAppDelegate.m */; };
+		16F0EBA514DF0A6A003FBFDB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16F0EBA314DF0A6A003FBFDB /* MainMenu.xib */; };
+		16F0EBA814DF0A6A003FBFDB /* DOUReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16F0EBA614DF0A6A003FBFDB /* DOUReader.xcdatamodeld */; };
+		16F0EBB014DF0A6A003FBFDB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F0EBAF14DF0A6A003FBFDB /* SenTestingKit.framework */; };
+		16F0EBB114DF0A6A003FBFDB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F0EB8E14DF0A69003FBFDB /* Cocoa.framework */; };
+		16F0EBB914DF0A6A003FBFDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16F0EBB714DF0A6A003FBFDB /* InfoPlist.strings */; };
+		16F0EBBC14DF0A6A003FBFDB /* DOUReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F0EBBB14DF0A6A003FBFDB /* DOUReaderTests.m */; };
+		16F0EBC414DF0A6A003FBFDB /* DOUReaderImporter.mdimporter in Resources */ = {isa = PBXBuildFile; fileRef = 16F0EBC114DF0A6A003FBFDB /* DOUReaderImporter.mdimporter */; };
+		16F0EBC614DF0A6A003FBFDB /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F0EBC514DF0A6A003FBFDB /* CoreServices.framework */; };
+		16F0EBC814DF0A6A003FBFDB /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F0EBC714DF0A6A003FBFDB /* CoreFoundation.framework */; };
+		16F0EBCA14DF0A6A003FBFDB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F0EBC914DF0A6A003FBFDB /* CoreData.framework */; };
+		16F0EBCC14DF0A6A003FBFDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F0EBCB14DF0A6A003FBFDB /* Foundation.framework */; };
+		16F0EBD214DF0A6A003FBFDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16F0EBD014DF0A6A003FBFDB /* InfoPlist.strings */; };
+		16F0EBD414DF0A6A003FBFDB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 16F0EBD314DF0A6A003FBFDB /* main.c */; };
+		16F0EBD614DF0A6A003FBFDB /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F0EBD514DF0A6A003FBFDB /* GetMetadataForFile.m */; };
+		16F0EBD914DF0A6A003FBFDB /* MySpotlightImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F0EBD814DF0A6A003FBFDB /* MySpotlightImporter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16F0EBB214DF0A6A003FBFDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16F0EB8114DF0A69003FBFDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16F0EB8914DF0A69003FBFDB;
+			remoteInfo = DOUReader;
+		};
+		16F0EBC214DF0A6A003FBFDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16F0EB8114DF0A69003FBFDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16F0EBC014DF0A6A003FBFDB;
+			remoteInfo = DOUReaderImporter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16F0EB8A14DF0A69003FBFDB /* DOUReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DOUReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F0EB8E14DF0A69003FBFDB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		16F0EB9114DF0A69003FBFDB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		16F0EB9214DF0A69003FBFDB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		16F0EB9314DF0A69003FBFDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		16F0EB9614DF0A69003FBFDB /* DOUReader-Info.plist */ = {isa = PBXFileReference; path = "DOUReader-Info.plist"; sourceTree = "<group>"; };
+		16F0EB9814DF0A69003FBFDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16F0EB9A14DF0A69003FBFDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16F0EB9C14DF0A69003FBFDB /* DOUReader-Prefix.pch */ = {isa = PBXFileReference; path = "DOUReader-Prefix.pch"; sourceTree = "<group>"; };
+		16F0EB9E14DF0A69003FBFDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		16F0EBA014DF0A69003FBFDB /* DRAppDelegate.h */ = {isa = PBXFileReference; path = DRAppDelegate.h; sourceTree = "<group>"; };
+		16F0EBA114DF0A69003FBFDB /* DRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRAppDelegate.m; sourceTree = "<group>"; };
+		16F0EBA414DF0A6A003FBFDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		16F0EBA714DF0A6A003FBFDB /* DOUReader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DOUReader.xcdatamodel; sourceTree = "<group>"; };
+		16F0EBAE14DF0A6A003FBFDB /* DOUReaderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DOUReaderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F0EBAF14DF0A6A003FBFDB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		16F0EBB614DF0A6A003FBFDB /* DOUReaderTests-Info.plist */ = {isa = PBXFileReference; path = "DOUReaderTests-Info.plist"; sourceTree = "<group>"; };
+		16F0EBB814DF0A6A003FBFDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16F0EBBA14DF0A6A003FBFDB /* DOUReaderTests.h */ = {isa = PBXFileReference; path = DOUReaderTests.h; sourceTree = "<group>"; };
+		16F0EBBB14DF0A6A003FBFDB /* DOUReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOUReaderTests.m; sourceTree = "<group>"; };
+		16F0EBC114DF0A6A003FBFDB /* DOUReaderImporter.mdimporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DOUReaderImporter.mdimporter; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F0EBC514DF0A6A003FBFDB /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		16F0EBC714DF0A6A003FBFDB /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		16F0EBC914DF0A6A003FBFDB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		16F0EBCB14DF0A6A003FBFDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		16F0EBCF14DF0A6A003FBFDB /* DOUReaderImporter-Info.plist */ = {isa = PBXFileReference; path = "DOUReaderImporter-Info.plist"; sourceTree = "<group>"; };
+		16F0EBD114DF0A6A003FBFDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16F0EBD314DF0A6A003FBFDB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		16F0EBD514DF0A6A003FBFDB /* GetMetadataForFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetMetadataForFile.m; sourceTree = "<group>"; };
+		16F0EBD714DF0A6A003FBFDB /* MySpotlightImporter.h */ = {isa = PBXFileReference; path = MySpotlightImporter.h; sourceTree = "<group>"; };
+		16F0EBD814DF0A6A003FBFDB /* MySpotlightImporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpotlightImporter.m; sourceTree = "<group>"; };
+		16F0EBDA14DF0A6A003FBFDB /* Importer Read Me.txt */ = {isa = PBXFileReference; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
+		16F0EBDB14DF0A6A003FBFDB /* DOUReaderImporter-Prefix.pch */ = {isa = PBXFileReference; path = "DOUReaderImporter-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16F0EB8714DF0A69003FBFDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F0EB8F14DF0A69003FBFDB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F0EBAA14DF0A6A003FBFDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F0EBB014DF0A6A003FBFDB /* SenTestingKit.framework in Frameworks */,
+				16F0EBB114DF0A6A003FBFDB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F0EBBE14DF0A6A003FBFDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F0EBC614DF0A6A003FBFDB /* CoreServices.framework in Frameworks */,
+				16F0EBC814DF0A6A003FBFDB /* CoreFoundation.framework in Frameworks */,
+				16F0EBCA14DF0A6A003FBFDB /* CoreData.framework in Frameworks */,
+				16F0EBCC14DF0A6A003FBFDB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16F0EB7F14DF0A69003FBFDB = {
+			isa = PBXGroup;
+			children = (
+				16F0EB9414DF0A69003FBFDB /* DOUReader */,
+				16F0EBB414DF0A6A003FBFDB /* DOUReaderTests */,
+				16F0EBCD14DF0A6A003FBFDB /* DOUReaderImporter */,
+				16F0EB8D14DF0A69003FBFDB /* Frameworks */,
+				16F0EB8B14DF0A69003FBFDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16F0EB8B14DF0A69003FBFDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16F0EB8A14DF0A69003FBFDB /* DOUReader.app */,
+				16F0EBAE14DF0A6A003FBFDB /* DOUReaderTests.octest */,
+				16F0EBC114DF0A6A003FBFDB /* DOUReaderImporter.mdimporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16F0EB8D14DF0A69003FBFDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16F0EB8E14DF0A69003FBFDB /* Cocoa.framework */,
+				16F0EBAF14DF0A6A003FBFDB /* SenTestingKit.framework */,
+				16F0EBC514DF0A6A003FBFDB /* CoreServices.framework */,
+				16F0EBC714DF0A6A003FBFDB /* CoreFoundation.framework */,
+				16F0EBC914DF0A6A003FBFDB /* CoreData.framework */,
+				16F0EBCB14DF0A6A003FBFDB /* Foundation.framework */,
+				16F0EB9014DF0A69003FBFDB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16F0EB9014DF0A69003FBFDB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16F0EB9114DF0A69003FBFDB /* AppKit.framework */,
+				16F0EB9214DF0A69003FBFDB /* CoreData.framework */,
+				16F0EB9314DF0A69003FBFDB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		16F0EB9414DF0A69003FBFDB /* DOUReader */ = {
+			isa = PBXGroup;
+			children = (
+				16F0EBA014DF0A69003FBFDB /* DRAppDelegate.h */,
+				16F0EBA114DF0A69003FBFDB /* DRAppDelegate.m */,
+				16F0EBA314DF0A6A003FBFDB /* MainMenu.xib */,
+				16F0EBA614DF0A6A003FBFDB /* DOUReader.xcdatamodeld */,
+				16F0EB9514DF0A69003FBFDB /* Supporting Files */,
+			);
+			path = DOUReader;
+			sourceTree = "<group>";
+		};
+		16F0EB9514DF0A69003FBFDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16F0EB9614DF0A69003FBFDB /* DOUReader-Info.plist */,
+				16F0EB9714DF0A69003FBFDB /* InfoPlist.strings */,
+				16F0EB9A14DF0A69003FBFDB /* main.m */,
+				16F0EB9C14DF0A69003FBFDB /* DOUReader-Prefix.pch */,
+				16F0EB9D14DF0A69003FBFDB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16F0EBB414DF0A6A003FBFDB /* DOUReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				16F0EBBA14DF0A6A003FBFDB /* DOUReaderTests.h */,
+				16F0EBBB14DF0A6A003FBFDB /* DOUReaderTests.m */,
+				16F0EBB514DF0A6A003FBFDB /* Supporting Files */,
+			);
+			path = DOUReaderTests;
+			sourceTree = "<group>";
+		};
+		16F0EBB514DF0A6A003FBFDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16F0EBB614DF0A6A003FBFDB /* DOUReaderTests-Info.plist */,
+				16F0EBB714DF0A6A003FBFDB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16F0EBCD14DF0A6A003FBFDB /* DOUReaderImporter */ = {
+			isa = PBXGroup;
+			children = (
+				16F0EBD514DF0A6A003FBFDB /* GetMetadataForFile.m */,
+				16F0EBD714DF0A6A003FBFDB /* MySpotlightImporter.h */,
+				16F0EBD814DF0A6A003FBFDB /* MySpotlightImporter.m */,
+				16F0EBDA14DF0A6A003FBFDB /* Importer Read Me.txt */,
+				16F0EBCE14DF0A6A003FBFDB /* Supporting Files */,
+			);
+			path = DOUReaderImporter;
+			sourceTree = "<group>";
+		};
+		16F0EBCE14DF0A6A003FBFDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16F0EBCF14DF0A6A003FBFDB /* DOUReaderImporter-Info.plist */,
+				16F0EBD014DF0A6A003FBFDB /* InfoPlist.strings */,
+				16F0EBD314DF0A6A003FBFDB /* main.c */,
+				16F0EBDB14DF0A6A003FBFDB /* DOUReaderImporter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16F0EB8914DF0A69003FBFDB /* DOUReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16F0EBE114DF0A6A003FBFDB /* Build configuration list for PBXNativeTarget "DOUReader" */;
+			buildPhases = (
+				16F0EB8614DF0A69003FBFDB /* Sources */,
+				16F0EB8714DF0A69003FBFDB /* Frameworks */,
+				16F0EB8814DF0A69003FBFDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16F0EBC314DF0A6A003FBFDB /* PBXTargetDependency */,
+			);
+			name = DOUReader;
+			productName = DOUReader;
+			productReference = 16F0EB8A14DF0A69003FBFDB /* DOUReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16F0EBAD14DF0A6A003FBFDB /* DOUReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16F0EBE414DF0A6A003FBFDB /* Build configuration list for PBXNativeTarget "DOUReaderTests" */;
+			buildPhases = (
+				16F0EBA914DF0A6A003FBFDB /* Sources */,
+				16F0EBAA14DF0A6A003FBFDB /* Frameworks */,
+				16F0EBAB14DF0A6A003FBFDB /* Resources */,
+				16F0EBAC14DF0A6A003FBFDB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16F0EBB314DF0A6A003FBFDB /* PBXTargetDependency */,
+			);
+			name = DOUReaderTests;
+			productName = DOUReaderTests;
+			productReference = 16F0EBAE14DF0A6A003FBFDB /* DOUReaderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		16F0EBC014DF0A6A003FBFDB /* DOUReaderImporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16F0EBDE14DF0A6A003FBFDB /* Build configuration list for PBXNativeTarget "DOUReaderImporter" */;
+			buildPhases = (
+				16F0EBBD14DF0A6A003FBFDB /* Sources */,
+				16F0EBBE14DF0A6A003FBFDB /* Frameworks */,
+				16F0EBBF14DF0A6A003FBFDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DOUReaderImporter;
+			productName = DOUReaderImporter;
+			productReference = 16F0EBC114DF0A6A003FBFDB /* DOUReaderImporter.mdimporter */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16F0EB8114DF0A69003FBFDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 16F0EB8414DF0A69003FBFDB /* Build configuration list for PBXProject "DOUReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 16F0EB7F14DF0A69003FBFDB;
+			productRefGroup = 16F0EB8B14DF0A69003FBFDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16F0EB8914DF0A69003FBFDB /* DOUReader */,
+				16F0EBAD14DF0A6A003FBFDB /* DOUReaderTests */,
+				16F0EBC014DF0A6A003FBFDB /* DOUReaderImporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16F0EB8814DF0A69003FBFDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F0EB9914DF0A69003FBFDB /* InfoPlist.strings in Resources */,
+				16F0EB9F14DF0A69003FBFDB /* Credits.rtf in Resources */,
+				16F0EBA514DF0A6A003FBFDB /* MainMenu.xib in Resources */,
+				16F0EBC414DF0A6A003FBFDB /* DOUReaderImporter.mdimporter in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F0EBAB14DF0A6A003FBFDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F0EBB914DF0A6A003FBFDB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F0EBBF14DF0A6A003FBFDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F0EBD214DF0A6A003FBFDB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16F0EBAC14DF0A6A003FBFDB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16F0EB8614DF0A69003FBFDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F0EB9B14DF0A69003FBFDB /* main.m in Sources */,
+				16F0EBA214DF0A69003FBFDB /* DRAppDelegate.m in Sources */,
+				16F0EBA814DF0A6A003FBFDB /* DOUReader.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F0EBA914DF0A6A003FBFDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F0EBBC14DF0A6A003FBFDB /* DOUReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F0EBBD14DF0A6A003FBFDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F0EBD414DF0A6A003FBFDB /* main.c in Sources */,
+				16F0EBD614DF0A6A003FBFDB /* GetMetadataForFile.m in Sources */,
+				16F0EBD914DF0A6A003FBFDB /* MySpotlightImporter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16F0EBB314DF0A6A003FBFDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16F0EB8914DF0A69003FBFDB /* DOUReader */;
+			targetProxy = 16F0EBB214DF0A6A003FBFDB /* PBXContainerItemProxy */;
+		};
+		16F0EBC314DF0A6A003FBFDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16F0EBC014DF0A6A003FBFDB /* DOUReaderImporter */;
+			targetProxy = 16F0EBC214DF0A6A003FBFDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16F0EB9714DF0A69003FBFDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16F0EB9814DF0A69003FBFDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		16F0EB9D14DF0A69003FBFDB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16F0EB9E14DF0A69003FBFDB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		16F0EBA314DF0A6A003FBFDB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16F0EBA414DF0A6A003FBFDB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		16F0EBB714DF0A6A003FBFDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16F0EBB814DF0A6A003FBFDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		16F0EBD014DF0A6A003FBFDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16F0EBD114DF0A6A003FBFDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16F0EBDC14DF0A6A003FBFDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		16F0EBDD14DF0A6A003FBFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		16F0EBDF14DF0A6A003FBFDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DOUReaderImporter/DOUReaderImporter-Prefix.pch";
+				INFOPLIST_FILE = "DOUReaderImporter/DOUReaderImporter-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Debug;
+		};
+		16F0EBE014DF0A6A003FBFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DOUReaderImporter/DOUReaderImporter-Prefix.pch";
+				INFOPLIST_FILE = "DOUReaderImporter/DOUReaderImporter-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Release;
+		};
+		16F0EBE214DF0A6A003FBFDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DOUReader/DOUReader-Prefix.pch";
+				INFOPLIST_FILE = "DOUReader/DOUReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		16F0EBE314DF0A6A003FBFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DOUReader/DOUReader-Prefix.pch";
+				INFOPLIST_FILE = "DOUReader/DOUReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		16F0EBE514DF0A6A003FBFDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DOUReader.app/Contents/MacOS/DOUReader";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DOUReader/DOUReader-Prefix.pch";
+				INFOPLIST_FILE = "DOUReaderTests/DOUReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		16F0EBE614DF0A6A003FBFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DOUReader.app/Contents/MacOS/DOUReader";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DOUReader/DOUReader-Prefix.pch";
+				INFOPLIST_FILE = "DOUReaderTests/DOUReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16F0EB8414DF0A69003FBFDB /* Build configuration list for PBXProject "DOUReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F0EBDC14DF0A6A003FBFDB /* Debug */,
+				16F0EBDD14DF0A6A003FBFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16F0EBDE14DF0A6A003FBFDB /* Build configuration list for PBXNativeTarget "DOUReaderImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F0EBDF14DF0A6A003FBFDB /* Debug */,
+				16F0EBE014DF0A6A003FBFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16F0EBE114DF0A6A003FBFDB /* Build configuration list for PBXNativeTarget "DOUReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F0EBE214DF0A6A003FBFDB /* Debug */,
+				16F0EBE314DF0A6A003FBFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16F0EBE414DF0A6A003FBFDB /* Build configuration list for PBXNativeTarget "DOUReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F0EBE514DF0A6A003FBFDB /* Debug */,
+				16F0EBE614DF0A6A003FBFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		16F0EBA614DF0A6A003FBFDB /* DOUReader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				16F0EBA714DF0A6A003FBFDB /* DOUReader.xcdatamodel */,
+			);
+			currentVersion = 16F0EBA714DF0A6A003FBFDB /* DOUReader.xcdatamodel */;
+			path = DOUReader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 16F0EB8114DF0A69003FBFDB /* Project object */;
+}
