@@ -52,34 +52,44 @@
 		16F0EB9114DF0A69003FBFDB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		16F0EB9214DF0A69003FBFDB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		16F0EB9314DF0A69003FBFDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		16F0EB9614DF0A69003FBFDB /* DOUReader-Info.plist */ = {isa = PBXFileReference; path = "DOUReader-Info.plist"; sourceTree = "<group>"; };
+		16F0EB9614DF0A69003FBFDB /* DOUReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DOUReader-Info.plist"; sourceTree = "<group>"; };
 		16F0EB9814DF0A69003FBFDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		16F0EB9A14DF0A69003FBFDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		16F0EB9C14DF0A69003FBFDB /* DOUReader-Prefix.pch */ = {isa = PBXFileReference; path = "DOUReader-Prefix.pch"; sourceTree = "<group>"; };
+		16F0EB9C14DF0A69003FBFDB /* DOUReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DOUReader-Prefix.pch"; sourceTree = "<group>"; };
 		16F0EB9E14DF0A69003FBFDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		16F0EBA014DF0A69003FBFDB /* DRAppDelegate.h */ = {isa = PBXFileReference; path = DRAppDelegate.h; sourceTree = "<group>"; };
+		16F0EBA014DF0A69003FBFDB /* DRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRAppDelegate.h; sourceTree = "<group>"; };
 		16F0EBA114DF0A69003FBFDB /* DRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRAppDelegate.m; sourceTree = "<group>"; };
 		16F0EBA414DF0A6A003FBFDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		16F0EBA714DF0A6A003FBFDB /* DOUReader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DOUReader.xcdatamodel; sourceTree = "<group>"; };
 		16F0EBAE14DF0A6A003FBFDB /* DOUReaderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DOUReaderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F0EBAF14DF0A6A003FBFDB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		16F0EBB614DF0A6A003FBFDB /* DOUReaderTests-Info.plist */ = {isa = PBXFileReference; path = "DOUReaderTests-Info.plist"; sourceTree = "<group>"; };
+		16F0EBB614DF0A6A003FBFDB /* DOUReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DOUReaderTests-Info.plist"; sourceTree = "<group>"; };
 		16F0EBB814DF0A6A003FBFDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		16F0EBBA14DF0A6A003FBFDB /* DOUReaderTests.h */ = {isa = PBXFileReference; path = DOUReaderTests.h; sourceTree = "<group>"; };
+		16F0EBBA14DF0A6A003FBFDB /* DOUReaderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOUReaderTests.h; sourceTree = "<group>"; };
 		16F0EBBB14DF0A6A003FBFDB /* DOUReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOUReaderTests.m; sourceTree = "<group>"; };
 		16F0EBC114DF0A6A003FBFDB /* DOUReaderImporter.mdimporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DOUReaderImporter.mdimporter; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F0EBC514DF0A6A003FBFDB /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		16F0EBC714DF0A6A003FBFDB /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		16F0EBC914DF0A6A003FBFDB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		16F0EBCB14DF0A6A003FBFDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		16F0EBCF14DF0A6A003FBFDB /* DOUReaderImporter-Info.plist */ = {isa = PBXFileReference; path = "DOUReaderImporter-Info.plist"; sourceTree = "<group>"; };
+		16F0EBCF14DF0A6A003FBFDB /* DOUReaderImporter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DOUReaderImporter-Info.plist"; sourceTree = "<group>"; };
 		16F0EBD114DF0A6A003FBFDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		16F0EBD314DF0A6A003FBFDB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		16F0EBD514DF0A6A003FBFDB /* GetMetadataForFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetMetadataForFile.m; sourceTree = "<group>"; };
-		16F0EBD714DF0A6A003FBFDB /* MySpotlightImporter.h */ = {isa = PBXFileReference; path = MySpotlightImporter.h; sourceTree = "<group>"; };
+		16F0EBD714DF0A6A003FBFDB /* MySpotlightImporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySpotlightImporter.h; sourceTree = "<group>"; };
 		16F0EBD814DF0A6A003FBFDB /* MySpotlightImporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpotlightImporter.m; sourceTree = "<group>"; };
-		16F0EBDA14DF0A6A003FBFDB /* Importer Read Me.txt */ = {isa = PBXFileReference; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
-		16F0EBDB14DF0A6A003FBFDB /* DOUReaderImporter-Prefix.pch */ = {isa = PBXFileReference; path = "DOUReaderImporter-Prefix.pch"; sourceTree = "<group>"; };
+		16F0EBDA14DF0A6A003FBFDB /* Importer Read Me.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
+		16F0EBDB14DF0A6A003FBFDB /* DOUReaderImporter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DOUReaderImporter-Prefix.pch"; sourceTree = "<group>"; };
+		16F0EBE714DF0AE7003FBFDB /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = /Users/Corwin/Developer/Projects/DOUReader/DOUReaderImporter/ru.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
+		16F0EBE814DF0AE7003FBFDB /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = /Users/Corwin/Developer/Projects/DOUReader/DOUReaderTests/ru.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
+		16F0EBE914DF0AE7003FBFDB /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = /Users/Corwin/Developer/Projects/DOUReader/DOUReader/ru.lproj/MainMenu.xib; sourceTree = "<absolute>"; };
+		16F0EBEA14DF0AE7003FBFDB /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = ru; path = /Users/Corwin/Developer/Projects/DOUReader/DOUReader/ru.lproj/Credits.rtf; sourceTree = "<absolute>"; };
+		16F0EBEB14DF0AE7003FBFDB /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = /Users/Corwin/Developer/Projects/DOUReader/DOUReader/ru.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
+		16F0EBEC14DF0AEA003FBFDB /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = /Users/Corwin/Developer/Projects/DOUReader/DOUReaderTests/uk.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
+		16F0EBED14DF0AEA003FBFDB /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = /Users/Corwin/Developer/Projects/DOUReader/DOUReaderImporter/uk.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
+		16F0EBEE14DF0AEA003FBFDB /* uk */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = uk; path = /Users/Corwin/Developer/Projects/DOUReader/DOUReader/uk.lproj/MainMenu.xib; sourceTree = "<absolute>"; };
+		16F0EBEF14DF0AEA003FBFDB /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = uk; path = /Users/Corwin/Developer/Projects/DOUReader/DOUReader/uk.lproj/Credits.rtf; sourceTree = "<absolute>"; };
+		16F0EBF014DF0AEA003FBFDB /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = /Users/Corwin/Developer/Projects/DOUReader/DOUReader/uk.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -404,6 +414,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				16F0EB9814DF0A69003FBFDB /* en */,
+				16F0EBEB14DF0AE7003FBFDB /* ru */,
+				16F0EBF014DF0AEA003FBFDB /* uk */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -412,6 +424,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				16F0EB9E14DF0A69003FBFDB /* en */,
+				16F0EBEA14DF0AE7003FBFDB /* ru */,
+				16F0EBEF14DF0AEA003FBFDB /* uk */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
@@ -420,6 +434,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				16F0EBA414DF0A6A003FBFDB /* en */,
+				16F0EBE914DF0AE7003FBFDB /* ru */,
+				16F0EBEE14DF0AEA003FBFDB /* uk */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -428,6 +444,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				16F0EBB814DF0A6A003FBFDB /* en */,
+				16F0EBE814DF0AE7003FBFDB /* ru */,
+				16F0EBEC14DF0AEA003FBFDB /* uk */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -436,6 +454,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				16F0EBD114DF0A6A003FBFDB /* en */,
+				16F0EBE714DF0AE7003FBFDB /* ru */,
+				16F0EBED14DF0AEA003FBFDB /* uk */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
